@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "lukas.kubik@ff.cuni.cz"
   generatedFields:
     date:
       type               : "date"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter 
+  username               : &twitter "LukasKubik"
 facebook:
   username               :
   app_id                 :
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Lukáš Kubík"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Ph.D. student of the History and Cultures of Asia and Africa"
   location         : "Prague"
   employer         :
   pubmed           : ""
   googlescholar    : "https://scholar.google.com/citations?user=2JpoLtsAAAAJ&hl=cs"
-  email            :
+  email            :  "lukas.kubik@ff.cuni.cz
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
